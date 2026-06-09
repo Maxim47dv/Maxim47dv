@@ -1,0 +1,61 @@
+p{
+	
+colour: red;
+
+}
+
+body{
+	
+	background-color: #45b8f2;
+	
+}
+
+#topbar{
+	
+	min-height:300px;
+	width:100%;
+	background-color:white;
+	
+}
+
+#topbar p{
+	
+	font-size: 6vmin;
+	display: inline-block;
+	margin-top:6%;
+	margin-left:10%;
+	
+}
+
+#mainsection{
+	
+	height:60%;
+	width:90%;
+	background-color:white;
+	border-radius:25px;
+	margin-left: 5%;
+	margin-top: 5%;
+	
+}
+
+p{
+	
+	font-size: 3vmin;
+		display: block;
+		margin-left: 2%;
+		margin-right: 2%;
+		word-break: keep-all;
+		
+}
+
+#mainbutton{
+	
+	margin-left: 5%;
+	margin-bottom:2%;
+	background-color:#4CAF50;
+	colour:white;
+	padding: 15px 20px;
+	display: inline-block;
+	font-size:24px;
+	
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+    <title>Maxim47dv</title>
+</head>
+
+<body>
+
+	<div id = 'topbar'>
+		<img id ='steve' src='steve.png'/>
+		<p> Привет, я - Стив! Приветствую тебя на моём сайте! </p>
+	</div>
+	
+	<div id = 'mainsection'>
+		<p>Кто я?: начинающий программист!</p>
+		<p>Что я делаю? Создаю сайт.</p>
+		<p>Больше всего я люблю гулять</p>
+		<button id= 'mainbutton' type='button' onclick = sayHello()>Поздороваться!</button>
+</body>
+
+<script>
+
+	function sayHello(){
+		var name = prompt("Привет, как тебя зовут?");
+		if(name !== null){
+			window.alert("Я рад познакомится с тобой, "+name+"! Спасибо, что звглянул на мой сайт!");
+		}
+	}
+</script>
+</html>
